@@ -1,0 +1,21 @@
+# TECH TEST
+
+## Obiettivo
+Verificare che un anagramma di una stringa sia contenuto in un'altra stringa.
+
+## Task
+Preparare uno script a command-line che accetti in input 2 stringhe, che
+controlli se una stringa A sia un qualsiasi anagramma contenuto in una stringa B
+e che stampi a video "vero" o "falso" in base al risultato del confronto.
+
+Assumi che:
+ - Il codice sia sviluppato preferibilmente in PHP.
+ - A sia una stringa di lunghezza massima di 1024 caratteri.
+ - B sia una stringa di lunghezza massima di 1024 caratteri.
+ - Non ci siano funzioni native che effettuino l'anagramma di una stringa.
+ - Il controllo sia case-insensitive.
+
+### Esempio
+Date due stringhe A = "abc" e B = "itookablackcab" lo script stamper� a video
+"vero", poich� anagrammando A si pu� trovare una occorrenza di "cab" nella
+stringa B.
