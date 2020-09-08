@@ -126,6 +126,11 @@ if (isset($argv[1]) && isset($argv[2])) {
         die();
     }
 
+    if (strlen($str1) > 1024 || strlen($str2) > 1024) {
+        echo "Lunghezza massima superata\n";
+        die();
+    }
+
 
     analyzeAndCheckString($str1, $str2);
 
